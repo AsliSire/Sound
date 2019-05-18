@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightGray"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/txt_username_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:hint="Yeni kullanıcı adınızı giriniz"
+        android:padding="10dp"
+        android:textCursorDrawable="@color/colorBlack" />
+
+
+    <Button
+        android:id="@+id/BtnSifreKaydet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/coloriconGreen"
+        android:text="Onayla"
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>

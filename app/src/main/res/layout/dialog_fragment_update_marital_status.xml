@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/lyMaritalStatus"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RadioGroup
+        android:id="@+id/RadioMarital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/btnEvli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent"
+            android:buttonTint="@color/coloriconFusia"
+            android:layoutDirection="rtl"
+            android:paddingLeft="10dp"
+            android:text="Evli"
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/btnBekar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent"
+            android:buttonTint="@color/coloriconFusia"
+            android:layoutDirection="rtl"
+            android:paddingLeft="10dp"
+            android:text="Bekar"
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RadioBlood"
+        android:layout_marginTop="30dp"
+        android:background="@color/coloriconFusia"
+        android:text="ONAYLA"
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>

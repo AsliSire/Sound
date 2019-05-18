@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mask="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".SignupActivity"
+    android:background="@color/colorLightGray" >
+
+
+    <LinearLayout
+        android:id="@+id/lySignupCerceve"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:foregroundGravity="center"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/PhoneIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_phone_call_yeni"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/PhoneTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/PhoneIcon"
+                    android:backgroundTint="@color/colorBlack"
+                    android:hint="Telefon"
+                    android:inputType="phone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/EmailIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_message_yeni" />
+
+                <EditText
+                    android:id="@+id/EmailTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:backgroundTint="@color/colorBlack"
+                    android:inputType="textEmailAddress"
+                    android:theme="@style/CustomEditTextStyle"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/UserIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_user_yeni" />
+
+                <EditText
+                    android:id="@+id/NameTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ad Soyad"
+                    android:backgroundTint="@color/colorBlack"
+                    android:layout_marginLeft="10dp"
+                    android:theme="@style/CustomEditTextStyle" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/PasswordIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_lock_yeni" />
+
+                <EditText
+                    android:id="@+id/passwordTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Şifre"
+                    android:backgroundTint="@color/colorBlack"
+                    android:layout_marginLeft="10dp"
+                    android:theme="@style/CustomEditTextStyle" />
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/kayit"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="KAYDOL"
+                android:textStyle="bold"
+                android:background="@color/colorSecondaryDark"
+                android:textColor="@color/colorAccent"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

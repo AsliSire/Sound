@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/txt_job_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:hint="Meslek"
+        android:padding="10dp"
+        android:textCursorDrawable="@color/colorBlack" />
+
+
+    <Button
+        android:id="@+id/BtnUpdateJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/coloriconWood"
+        android:text="ONAYLA"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/txt_job_change"/>
+
+
+</RelativeLayout>

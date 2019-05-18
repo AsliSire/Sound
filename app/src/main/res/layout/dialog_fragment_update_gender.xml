@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/lyGender"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <RadioGroup
+        android:id="@+id/RadioGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/btnKadin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kadın"
+            android:textSize="20sp"
+            android:layout_gravity="start"
+            android:textAlignment="textStart"
+            android:layoutDirection="rtl"
+            android:buttonTint="@color/coloriconLavender"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"/>
+
+        <RadioButton
+            android:id="@+id/btnErkek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Erkek"
+            android:textSize="20sp"
+            android:layout_gravity="start"
+            android:textAlignment="textStart"
+            android:layoutDirection="rtl"
+            android:buttonTint="@color/coloriconLavender"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"/>
+
+        <RadioButton
+            android:id="@+id/btnLgbt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LGBT"
+            android:textSize="20sp"
+            android:layout_gravity="start"
+            android:textAlignment="textStart"
+            android:layoutDirection="rtl"
+            android:buttonTint="@color/coloriconLavender"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"/>
+
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ONAYLA"
+        android:textColor="@color/colorAccent"
+        android:background="@color/coloriconLavender"
+        android:layout_below="@+id/RadioGender"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>

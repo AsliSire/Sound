@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MesajFragment"
+    android:background="@color/colorLightGray" >
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="100dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:paddingLeft="30dp">
+
+
+
+            <ImageView
+                android:id="@+id/mesaj_kisi"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_user_yeni"
+                android:layout_centerVertical="true"
+                ></ImageView>
+
+            <TextView
+                android:id="@+id/kisi_adi"
+                android:layout_width="224dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/mesaj_kisi"
+                android:text="@string/alert_kisi_ilk"
+                android:textSize="20sp"
+                android:paddingLeft="20sp"
+                android:layout_marginTop="3dp"
+                />
+
+            <CheckBox
+                android:id="@+id/kisi_sec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/kisi_adi"
+                android:paddingStart="250dp"
+                android:paddingEnd="300dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:paddingLeft="30dp">
+
+            <ImageView
+                android:id="@+id/mesaj_kisi_iki"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_user_yeni"
+                android:layout_centerVertical="true"></ImageView>
+
+            <TextView
+                android:id="@+id/kisi_adi_iki"
+                android:layout_width="224dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/mesaj_kisi_iki"
+                android:text="@string/alert_kisi_iki"
+                android:textSize="20sp"
+                android:paddingLeft="20sp"
+                android:layout_marginTop="3dp"/>
+
+            <CheckBox
+                android:id="@+id/kisi_sec_iki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/kisi_adi_iki"
+                android:paddingStart="250dp"
+                android:paddingEnd="300dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:paddingLeft="30dp">
+
+            <ImageView
+                android:id="@+id/mesaj_kisi_uc"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_user_yeni"
+                android:layout_centerVertical="true"></ImageView>
+
+            <TextView
+                android:id="@+id/kisi_adi_uc"
+                android:layout_width="224dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/mesaj_kisi_uc"
+                android:text="@string/alert_kisi_son"
+                android:textSize="20sp"
+                android:paddingLeft="20sp"
+                android:layout_marginTop="3dp"/>
+
+            <CheckBox
+                android:id="@+id/kisi_sec_uc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/kisi_adi_uc"
+                android:paddingStart="250dp"
+                android:paddingEnd="300dp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/email_sign_in_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorSecondaryDark"
+            android:text="MESAJ GÖNDER"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+
+
+       <!-- <View
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="@color/colorIcon"/>
+-->
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="80dp"
+            android:text="Ya da telefonu sallayın."
+            android:textSize="20sp"
+            android:textColor="@color/colorIcon"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+</LinearLayout>
+

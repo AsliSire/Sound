@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">VOX</string>
+    <string name="title_activity_menu">VOX</string>
+    <string name="navigation_drawer_open">Menüyü Aç</string>
+    <string name="navigation_drawer_close">Menüyü Kapat</string>
+    <string name="nav_header_title">HOŞ GELDİNİZ</string>
+    <string name="nav_header_subtitle">Gizem KOCAK</string><!--loginden alınacak-->
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="title_activity_login">Giriş yap</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Şifre</string>
+    <string name="action_sign_in">Giriş Yap</string>
+    <string name="action_sign_up">Kayıt Ol</string>
+    <string name="action_sign_in_short">Giriş</string>
+    <string name="error_invalid_email">Geçersiz E-mail</string>
+    <string name="error_invalid_password">Şifre Çok Kısa</string>
+    <string name="error_incorrect_password">Hatalı Şifre</string>
+    <string name="error_field_required">Bu Alanı Boş Bırakamazsınız</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="guide">Lütfen verilen alanları size en yakın kişi bilgileriyle doldurunuz.</string>
+    <string name="EducationStatus">Eğitim Durumu </string>
+    <string name="Job">Meslek </string>
+    <string name="DateofBirth">Doğum Tarihi </string>
+    <string name="Marriage">Medeni Hali </string>
+    <string name="Gender">Cinsiyet </string>
+    <string name="Age">Yaş </string>
+    <string name="BloodGroup">Kan Grubu </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="menu_message">Mesaj</string>
+    <string name="menu_location">Anlık Konum</string>
+    <string name="menu_call">Arama</string>
+    <string name="menu_blog">Blog</string>
+    <string name="menu_reminder">Hatırlatıcı</string>
+    <string name="menu_gallery">Galeri</string>
+    <string name="menu_settings">Ayarlar</string>
+    <string name="menu_pill">İlaçlarım</string>
+    <string name="menu_share">Uygulamayı Paylaş</string>
+    <string name="menu_rate_us">Uygulamayı Puanla</string>
+    <string name="menu_feedback">Sorun Bildir</string>
+    <string name="menu_contact">İletişim</string>
+    <string name="menu_about_us">Hakkımızda</string>
+    <string name="menu_exit">Çıkış</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="kronic_astim">Astım</string>
+    <string name="kronic_alzheimer">Alzheimer</string>
+    <string name="kronic_gastrit">Gastrit</string>
+    <string name="kronic_ulser">Peptik Ülser</string>
+    <string name="kronic_yuksek_tansiyon">Yüksek tansiyon</string>
+    <string name="kronic_migren">Migren</string>
+    <string name="kronic_ms">MS</string>
+    <string name="kronic_solunum">Solunum yolu hastalıkları</string>
+    <string name="kronic_kalpdamar">Kalp-Damar hastalıkları</string>
+    <string name="kronic_norolojik">Nörolojik Hastalıklar</string>
+    <string name="kronic_parkinson">Parkinson</string>
+    <string name="kronic_endokrin">Endokrin Hastalıkları</string>
+    <string name="kronic_psyco">Psikiyatrik Hastalıklar</string>
+    <string name="kronic_tiroid">Tiroid</string>
+    <string name="kronic_kas">Kas Hastalıkları</string>
+    <string name="kronic_kanser">Kanser</string>
+    <string name="kronic_verem">Verem</string>
+    <string name="kronic_tuberkuloz">Tüberküloz</string>
+    <string name="kronic_karaciğer">Karaciğer Hastalıkları</string>
+    <string name="kronic_lyme">Lyme Hastalığı</string>
+    <string name="kronic_fibromyalji">Fibromyalji</string>
+    <string name="kronic_hormon">Hormon Bozuklukları</string>
+    <string name="kronic_dismenore">Dismenore</string>
+    <string name="kronic_romatizma">Romatizmal Hastalıklar</string>
+    <string name="kronic_immun">Otoimmün Hastalıklar</string>
+    <string name="kronic_sle">SLE</string>
+    <string name="kronic_meniere">Meniere</string>
+    <string name="kronic_bobrek">Böbrek Hastalıkları</string>
+    <string name="kronic_kulak">Kulak Hastalıkları</string>
+    <string name="kronic_göz">Göz Hastalıkları</string>
+    <string name="kronic_cilt">Cilt Hastalıkları</string>
+    <string name="kronic_behcet">Behçet Hastalığı</string>
+    <string name="kronic_addison">Addison</string>
+    <string name="kronic_kusing">Kuşing</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="alert_kisi_ilk">Anne</string>
+    <string name="alert_kisi_iki">Baba</string>
+    <string name="alert_kisi_son">Kutsal Ruh</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_alert">Acil Durum</string>
+    <string name="title_profile">Profilim</string>
+    <string name="title_drawer">Menu</string>
+    <!-- Strings related to forms -->
+
+    <!-- Medicine Recyclerview Columns -->
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ten">10</string>
+
+    <string name="hour">saatte</string>
+    <string name="day">günde</string>
+    <string name="week">haftada</string>
+    <string name="month">ayda</string>
+    <string name="year">yılda</string>
+
+</resources>

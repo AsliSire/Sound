@@ -1,0 +1,233 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorLightGray"
+    >
+
+    <RelativeLayout
+        android:id="@+id/profile_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:paddingBottom="24dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:elevation="5dp"
+            android:padding="25dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_user_profile"
+            app:civ_border_color="#ffffff"
+            app:civ_border_width="3dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Gizem Koçak"
+            android:textColor="#2b2b2b"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_below="@id/profile"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/profile_layout"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="3dp"
+        android:paddingRight="3dp"
+        android:paddingLeft="15dp"
+        android:gravity="center"
+        android:background="@drawable/shape_backdrop">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/txtEducationStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EducationStatus"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/txtEducationStatusis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/txtEducationStatus"
+                android:clickable="true"
+                android:hint="Lisans"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textSize="15dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/txtJob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Job"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/txtJobis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/txtJob"
+                android:clickable="true"
+                android:hint="Job"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textSize="15dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/txtDateofBirth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DateofBirth"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/txtDateofBirthis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/txtDateofBirth"
+                android:clickable="true"
+                android:hint="Birthday"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textSize="15dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/txtMarriage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Marriage"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/txtMarriageis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/txtMarriage"
+                android:clickable="true"
+                android:hint="Marriage"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textSize="15dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/txtGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="@string/Gender"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/txtGenderis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/txtGender"
+                android:clickable="true"
+                android:hint="Gender"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textSize="15dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/txtBloodGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="@string/BloodGroup"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/txtBloodGroupis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/txtBloodGroup"
+                android:clickable="true"
+                android:hint="0+"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textSize="15dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

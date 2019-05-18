@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navBell"
+        android:icon="@drawable/ic_voice"
+        android:title="Sesli Asistan" />
+    <item
+        android:id="@+id/navProfil"
+        android:icon="@drawable/ic_user_yeni"
+        android:title="Profilim" />
+    <item
+        android:id="@+id/navDrawer"
+        android:icon="@drawable/ic_menu_drawer"
+        android:title="Menu" />
+
+</menu>

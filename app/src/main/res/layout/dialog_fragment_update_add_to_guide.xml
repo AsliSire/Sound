@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/lyAddToGuide"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/txt_person_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:hint="İsim giriniz"
+        android:padding="10dp"
+        android:textCursorDrawable="@color/colorBlack" />
+
+
+
+    <EditText
+        android:id="@+id/txt_number_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:hint="Telefon numarası giriniz"
+        android:padding="10dp"
+        android:textCursorDrawable="@color/colorBlack"
+        android:layout_below="@+id/txt_person_change"/>
+
+
+
+    <Button
+        android:id="@+id/btnOnaylaKisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/coloriconSlate"
+        android:text="Onayla"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/txt_number_change"/>
+
+</RelativeLayout>
